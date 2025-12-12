@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: conversalab-backend
+    env: node
+    rootDir: backend
+    buildCommand: "npm install"
+    startCommand: "npm start"
+
+  - type: static
+    name: conversalab-frontend
+    rootDir: frontend
+    staticPublishPath: "./"
