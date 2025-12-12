@@ -1,4 +1,4 @@
-const API_URL = "https://SEU-BACKEND.onrender.com/chat";
+const API_URL = "https://conversalab-wtj1.onrender.com";
 
 async function send() {
   const msg = document.getElementById("msg").value;
